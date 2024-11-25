@@ -1,7 +1,7 @@
 ## Environment Installation
 
 ```bash
-conda create -n tbsi python=3.8
+conda create -n sts python=3.8
 conda activate tbsi
 bash install.sh
 ```
