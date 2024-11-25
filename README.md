@@ -18,3 +18,31 @@ After running this command, you can also modify paths by editing these two files
 lib/train/admin/local.py  # paths about training
 lib/test/evaluation/local.py  # paths about testing
 ```
+
+## Data Preparation
+Put the tracking datasets in ```./data```. It should look like:
+```
+${PROJECT_ROOT}
+  -- data
+      -- lasher
+          |-- trainingset
+          |-- testingset
+          |-- trainingsetList.txt
+          |-- testingsetList.txt
+          ...
+```
+
+## Training
+Download [SOT][] pretrained weights and put them under ```$PROJECT_ROOT$/pretrained_models```.
+
+
+
+
+
+
+
+
+
+
+
+
