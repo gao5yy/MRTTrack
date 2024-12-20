@@ -2,7 +2,7 @@
 
 ```bash
 conda create -n sts python=3.8
-conda activate tbsi
+conda activate sts
 bash install.sh
 ```
 
