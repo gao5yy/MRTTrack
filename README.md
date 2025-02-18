@@ -33,15 +33,25 @@ ${PROJECT_ROOT}
 ```
 
 ## Training
-Download [SOT][] pretrained weights and put them under ```$PROJECT_ROOT$/pretrained_models```.
+Download [SOT](https://pan.baidu.com/s/1U42J6b3g1htma0OvmXRQCw?pwd=at5b#list/path=%2F) pretrained weights and put them under ```$PROJECT_ROOT$/pretrained_models```.
 
+```bash
+python tracking/train.py --script select_track --config vitb_256_select_32x1_1e4_lasher_15ep_sot --save_dir ./output --mode multiple --nproc_per_node 4
 
+## Evaluation
+Download checkpoint and put it under $PROJECT_ROOT$/output.
 
+```bash
+python tracking/test.py select_track vitb_256_select_32x1_1e4_lasher_15ep_sot --dataset_name lasher_test
 
+Download raw result and put it under $PROJECT_ROOT$/output.
 
+```bash
+python tracking/analysis_results.py
 
+## Acknowledgments
 
-
+Our project is developed upon TBSI(https://github.com/RyanHTR/TBSI?tab=readme-ov-file). Thanks for their contributions which help us to quickly implement our ideas.
 
 
 
