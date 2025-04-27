@@ -46,7 +46,7 @@ Download [checkpoint](https://pan.baidu.com/s/18u2FJu1ZZ7_w-mmSDMEx1A?pwd=eq98) 
 python tracking/test.py select_track vitb_256_select_32x1_1e4_lasher_15ep_sot --dataset_name lasher_test
 ```
 
-Download [raw result](https://pan.baidu.com/disk/main#/index?category=all&path=%2FMRTTrack) and put it under ```$PROJECT_ROOT$/output```.
+Download [raw result](https://pan.baidu.com/s/1XMDrudiK-kl2cTe76Td2QA?pwd=av9c) and put it under ```$PROJECT_ROOT$/output```.
 
 ```bash
 python tracking/analysis_results.py
