@@ -40,7 +40,7 @@ python tracking/train.py --script select_track --config vitb_256_select_32x1_1e4
 ```
 
 ## Evaluation
-Download [checkpoint](链接: https://pan.baidu.com/s/18u2FJu1ZZ7_w-mmSDMEx1A?pwd=eq98 提取码: eq98 复制这段内容后打开百度网盘手机App，操作更方便哦) and put it under ```$PROJECT_ROOT$/output```.
+Download [checkpoint](https://pan.baidu.com/s/18u2FJu1ZZ7_w-mmSDMEx1A?pwd=eq98) and put it under ```$PROJECT_ROOT$/output```.
 
 ```bash
 python tracking/test.py select_track vitb_256_select_32x1_1e4_lasher_15ep_sot --dataset_name lasher_test
