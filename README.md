@@ -35,6 +35,7 @@ Download [LasHeR](https://github.com/BUGPLEASEOUT/LasHeR),[VTUAV](https://zhang-
 
 ## Training
 Training from scrath
+
 Download [OSTrack](https://github.com/botaoye/OSTrack).And, training with dataset [Lasot](http://vision.cs.stonybrook.edu/~lasot/), [COCO](https://cocodataset.org/#download), [GOT-10k](http://got-10k.aitestunion.com/) and [TrackingNet](https://github.com/SilvioGiancola/TrackingNet-devkit) for SOT pretrained model. 
 
 Download [SOT](https://pan.baidu.com/s/1U42J6b3g1htma0OvmXRQCw?pwd=at5b#list/path=%2F) pretrained weights and put them under ```$PROJECT_ROOT$/pretrained_models```.
