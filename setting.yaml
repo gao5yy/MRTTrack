@@ -1,0 +1,31 @@
+train:
+  Learning rete:
+    backbone: 0.0000025
+    others: 0.000025
+  Optimizer: AdamW
+  Weight Decay: 0.0001
+  Batch Size: 8
+  Epoch: 20
+  Lr drop epoch: 10
+  Lr decay rate: 0.1
+  Selection ratio: 0.08
+  Random seed: 42
+  Early stopping: none
+  Checkpoint average: none
+  Template size: 128*128
+  Search size: 256*256
+  Augmentation: RandomHorizontalFlip
+  MSC insert layer: [0,4,8]
+  Backbone: vit_base_patch16_224_select
+
+device:
+  OS: Ubuntu 20.04
+  Python version: 3.8
+  PyTorch version: 1.11.0
+  CUDA version: 11.3
+  GPU: NVIDIA GeForce RTX 3090
+
+Other:
+  Gflops(G): 77.29
+  params(M): 131.09
+  Speed(FPS): 32.5
