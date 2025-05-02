@@ -59,6 +59,7 @@ We refer you to [LasHeR Toolkit](https://github.com/BUGPLEASEOUT/LasHeR) for Las
 
 ## Result
 |Model | Backbone | Pretraining | Precision | NormPrec | Success | FPS |
+|---------|----------|-------------|-----------|----------|---------|------|
 |MRTrack | ViT-Base | SOT | 70.2 |66.5 |56.5| 32.5|
 
 
