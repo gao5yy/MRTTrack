@@ -63,12 +63,12 @@ We refer you to [LasHeR Toolkit](https://github.com/BUGPLEASEOUT/LasHeR) for Las
 |LasHeR|MRTrack | ViT-Base | SOT | 70.2 |66.5 |56.5| 32.5|
 
 |Dataset |Model | Backbone | Pretraining | Precision | Success | FPS |
-|---------|---------|----------|-------------|-----------|----------|---------|------|
+|---------|---------|----------|-------------|-----------|---------|------|
 |RGBT210|MRTrack | ViT-Base | SOT | 85.6 |63.1| 32.5|
 |RGBT234|MRTrack | ViT-Base | SOT | 87.2 |64.1| 32.5|
 
 |Dataset |Model | Backbone | Pretraining | MPR | MSR | FPS |
-|---------|---------|----------|-------------|-----------|----------|---------|------|
+|---------|---------|----------|-------------|-----------|---------|------|
 |VTUAV-ST|MRTrack | ViT-Base | SOT | 84.3 |72.1| 32.5|
 
 ## Acknowledgments
