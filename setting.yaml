@@ -8,13 +8,13 @@ train:
   Epoch: 20
   Lr drop epoch: 10
   Lr decay rate: 0.1
-  Selection ratio: 0.08
+  Selection ratio γ: 0.08
   Random seed: 42
   Early stopping: none
   Checkpoint average: none
   Template size: 128*128
   Search size: 256*256
-  Augmentation: RandomHorizontalFlip
+  Augmentation: RandomHorizontalFlip, jitter
   MSC insert layer: [0,4,8]
   Backbone: vit_base_patch16_224_select
 
@@ -29,3 +29,4 @@ Other:
   Gflops(G): 77.29
   params(M): 131.09
   Speed(FPS): 32.5
+  Test memory usage：1744
