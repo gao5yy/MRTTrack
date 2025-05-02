@@ -55,7 +55,7 @@ Download [raw result](https://pan.baidu.com/s/1XMDrudiK-kl2cTe76Td2QA?pwd=av9c) 
 ```bash
 python tracking/analysis_results.py
 ```
-We refer you to [LasHeR Toolkit](https://github.com/BUGPLEASEOUT/LasHeR) for LasHeR evaluation, and refer you to [MPR_MSR_Evaluation](https://sites.google.com/view/ahutracking001/) for RGBT234 evaluation.
+We refer you to [LasHeR Toolkit](https://github.com/BUGPLEASEOUT/LasHeR) for LasHeR evaluation, and refer you to [MPR_MSR_Evaluation](https://sites.google.com/view/ahutracking001/) for RGBT234 and RGBT210 evaluation.
 
 ## Acknowledgments
 Our project is developed upon [TBSI](https://github.com/RyanHTR/TBSI?tab=readme-ov-file). Thanks for their contributions which help us to quickly implement our ideas.
