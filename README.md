@@ -57,6 +57,11 @@ python tracking/analysis_results.py
 ```
 We refer you to [LasHeR Toolkit](https://github.com/BUGPLEASEOUT/LasHeR) for LasHeR evaluation, and refer you to [MPR_MSR_Evaluation](https://sites.google.com/view/ahutracking001/) for RGBT234 and RGBT210 evaluation.
 
+## Result
+|Model | Backbone | Pretraining | Precision | NormPrec | Success | FPS |
+|MRTrack | ViT-Base | SOT | 70.2 |66.5 |56.5| 32.5|
+
+
 ## Acknowledgments
 Our project is developed upon [TBSI](https://github.com/RyanHTR/TBSI?tab=readme-ov-file). Thanks for their contributions which help us to quickly implement our ideas.
 
